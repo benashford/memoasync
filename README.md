@@ -1,6 +1,6 @@
 # memoasync
 
-Memoize operations that return `core.async` channels.
+Memoize asynchronous functions that return `core.async` channels.
 
 ## The problem
 

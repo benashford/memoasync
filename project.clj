@@ -1,4 +1,4 @@
-(defproject memoasync "0.1.0-SNAPSHOT"
+(defproject memoasync "0.1.0"
   :description "Memoisation of async operations"
   :url "https://github.com/benashford/redis-async"
   :license {:name         "Apache Licence 2.0"
