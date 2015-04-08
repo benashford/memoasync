@@ -2,6 +2,8 @@
 
 Memoize asynchronous functions that return `core.async` channels.
 
+[![Clojars Project](http://clojars.org/memoasync/latest-version.svg)](http://clojars.org/memoasync)
+
 ## The problem
 
 Clojure has a standard library function [`memoize`](https://clojuredocs.org/clojure.core/memoize) function that remembers the result of a function and on subsequent calls returns the same value so it doesn't have to be calculated again.  This is a handy optimisation for calls which are relatively expensive, and where the value is not expected to change for the same parameters.  The trade-off for this optimisation is higher memory use.
